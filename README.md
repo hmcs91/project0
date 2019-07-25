@@ -37,6 +37,6 @@ It has one stylesheet file called "styles.css" aditional to bootstrap 4. You can
 	+ In bio.html is used to put in two columns my info and "my picture".
 	+ In articles.hmtml is used to make a 2x2 square in order to put the "articles" in their places.
 The stylesheets styles0.scss uses:
-* one SCSS variable ($colorcito - "little color in Spanish")
+* two SCSS variable ($colorcito - "literally little color in Spanish", and $naranjita - "literally little orange in Spanish")
 * one example of SCSS nesting (several elements inside div)  
 * one use of SCSS inheritance (the font-family is extended)
