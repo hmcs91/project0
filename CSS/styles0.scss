@@ -1,5 +1,14 @@
-$colorcito: #007bff;
+/* Variables */
 
+$colorcito: #007bff;
+$naranjita: #ffaa33;
+
+/*ID selector */
+#naranja {
+	background-color: $naranjita;
+}
+
+/* Selectors */
 p.bio {
 	margin-top: 30px;
 	margin-bottom: 20px;
@@ -22,7 +31,6 @@ th {
 	color: white;
 }
 
-/* Selectors */
 th, td {
   padding: 15px;
   text-align: center;
@@ -41,6 +49,10 @@ p::selection {
 
 ul > li {
 	color: $colorcito;
+}
+
+div ul > li {
+	color: black;
 }
 
 tr:nth-child(even) {
@@ -73,9 +85,6 @@ div{
 	}
 }
 
-#naranja {
-	background-color: #ffaa33;
-}
 
 /* Mobile responsive query */
 @media (max-width: 500px){
