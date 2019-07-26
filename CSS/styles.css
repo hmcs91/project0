@@ -46,7 +46,7 @@ ul > li {
   color: #007bff;
 }
 
-div ul > li {
+td ul > li {
   color: black;
 }
 
@@ -74,7 +74,7 @@ div a:hover.article {
 }
 
 /* Mobile responsive query */
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   h1.biography::before {
     content: "Bio";
   }

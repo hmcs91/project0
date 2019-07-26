@@ -51,7 +51,7 @@ ul > li {
 	color: $colorcito;
 }
 
-div ul > li {
+td ul > li {
 	color: black;
 }
 
@@ -87,7 +87,7 @@ div{
 
 
 /* Mobile responsive query */
-@media (max-width: 500px){
+@media (max-width: 700px){
 	h1.biography::before {
 		content: "Bio";
 	}
